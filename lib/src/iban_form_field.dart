@@ -261,7 +261,7 @@ class _IbanFormFieldState extends State<IbanFormFieldBuilder> {
                   Theme.of(context)
                       .textTheme
                       .bodyMedium!
-                      .copyWith(color: Theme.of(context).errorColor),
+                      .copyWith(color: Theme.of(context).colorScheme.error),
             ),
           ),
       ],
